@@ -1,0 +1,68 @@
+.pageContainer{
+height:500px;
+width:700px;
+display:block;
+padding:100px;
+
+}
+.pageContent{
+  position:absolute;
+  height:400px;
+  width:600px;
+  margin:none;
+  padding:0px 0px 0px 10px;
+  border: 1px solid rgb(186, 226, 241);
+  box-sizing: border-box;
+}
+.leftColumn{
+    position:relative;
+    float: left;
+    width:50%;
+    height:100%;
+}
+.rightColumn{
+    position:relative;
+    float: left;
+    width:50%;
+    height:100%;
+    background-color:rgb(207, 234, 244); ;
+} 
+
+
+.line1{
+    position:relative;
+    top:15px;  
+}
+.line2{
+    position:relative;
+    top:30px;  
+}
+.line3{
+    position:relative;
+    top:45px;  
+}
+.line4{
+    position:relative;
+    top:50px;  
+}
+.line5{
+    position:relative;
+    top:75px;   
+}
+.line6{
+    position:relative;
+    top:95px;  
+}
+.image{
+    height:100%;
+    width:100%;
+    position:relative;
+}
+.text{
+    position:absolute;
+    text-align:center;
+    bottom:90px;
+    left:50px;
+    right:50px;
+    color:rgb(111, 113, 116)  
+}
