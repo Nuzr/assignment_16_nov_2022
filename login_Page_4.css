@@ -1,16 +1,8 @@
-.pageContainer {
-  height: 700px;
-  width: 1000px;
-  display: block;
-  padding: 100px 100px;
-  border: 1px solid rgb(102, 105, 106);
-  box-sizing: border-box;
+.pageContent {
+  display: flow-root;
+  justify-content: center;
+  margin: 100px;
   font-family: sans-serif;
-  position: absolute;
-  left: 20px;
-}
-.pageContainer .pageContent {
-  position: absolute;
   height: 500px;
   width: 800px;
   margin: none;
@@ -20,58 +12,62 @@
   border-radius: 5px;
   border-style: solid;
 }
-.pageContainer .pageContent .leftColumn {
-  position: relative;
+.pageContent .loginBox {
   float: left;
   width: 50%;
   height: 100%;
 }
-.pageContainer .pageContent .leftColumn .header {
-  position: absolute;
+.pageContent .loginBox .header {
+  display: inline-block;
+  width: 100%;
   height: auto;
-  width: 170px;
+  margin-bottom: 50px;
 }
-.pageContainer .pageContent .leftColumn .header img {
-  height: 65px;
-  width: 175px;
-  position: absolute;
-  top: 20px;
-  left: -12px;
-}
-.pageContainer .pageContent .leftColumn .heading {
+.pageContent .loginBox .header img {
+  height: 70px;
+  width: 190px;
   position: relative;
-  top: 120px;
+  top: 5px;
+  left: -15px;
+}
+.pageContent .loginBox .mainContent {
+  width: 100%;
+  height: auto;
+}
+.pageContent .loginBox .mainContent .heading {
   color: rgb(121, 121, 121);
   font-size: 10px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
-.pageContainer .pageContent .leftColumn .subheading {
-  position: relative;
-  top: 140px;
+.pageContent .loginBox .mainContent .subheading {
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: larger;
 }
-.pageContainer .pageContent .leftColumn .subheading .inpt-pass {
+.pageContent .loginBox .mainContent .inpt-pass {
+  margin-bottom: 10px;
+}
+.pageContent .loginBox .mainContent .inpt-pass input {
   border-radius: 5px;
   padding: 8px 8px 8px;
   border-color: rgb(178, 182, 183);
   box-sizing: border-box;
   color: rgb(178, 182, 183);
   border-style: solid;
-  position: relative;
-  top: 25px;
 }
-.pageContainer .pageContent .leftColumn .subheading .inpt-cnfrm-pass {
+.pageContent .loginBox .mainContent .inpt-cnfrm-pass {
+  margin-bottom: 20px;
+}
+.pageContent .loginBox .mainContent .inpt-cnfrm-pass input {
   border-radius: 5px;
   padding: 8px 8px 8px;
   border-color: rgb(178, 182, 183);
   box-sizing: border-box;
   color: rgb(178, 182, 183);
   border-style: solid;
-  position: relative;
-  top: 35px;
 }
-.pageContainer .pageContent .leftColumn .subheading button {
+.pageContent .loginBox .mainContent button {
   background-color: rgb(64, 142, 225);
   color: white;
   border-radius: 20px;
@@ -80,27 +76,24 @@
   border: 0px;
   font-size: 15px;
   text-align: center;
-  position: relative;
-  top: 70px;
+  margin-bottom: 20px;
 }
-.pageContainer .pageContent .leftColumn .footer {
+.pageContent .loginBox .footer {
   color: rgb(178, 182, 183);
-  position: absolute;
-  top: 450px;
   font-size: smaller;
+  margin-top: 100px;
 }
-.pageContainer .pageContent .rightColumn {
-  position: relative;
+.pageContent .imageBox {
   float: left;
   width: 50%;
   height: 100%;
 }
-.pageContainer .pageContent .rightColumn .image {
+.pageContent .imageBox .image {
   height: 100%;
   width: 100%;
   position: relative;
 }
-.pageContainer .pageContent .rightColumn img {
+.pageContent .imageBox img {
   height: 100%;
   width: 100%;
 }/*# sourceMappingURL=login_Page_4.css.map */

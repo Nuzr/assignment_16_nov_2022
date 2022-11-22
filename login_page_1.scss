@@ -2,68 +2,61 @@
 
 
 
-.pageContainer{
-height: 700px;
-width:1000px;
-display:block;
-padding:100px 100px;
-border: 1px solid rgb(102, 105, 106);
-box-sizing: border-box;
-font-family: sans-serif;
-position: absolute;
-left:20px;
+
 
   .pageContent{
-  position:absolute;
-  height:500px;
-  width:800px;
-  margin:none;
-  padding:0px 0px 0px 25px;
-  border-color: $color-blue;
-  box-sizing: border-box;
-  border-radius: 5px;
-  border-style: solid;
-  
  
-   .leftColumn{
-    position:relative;
+    display: flow-root;
+    justify-content: center;
+    margin:100px;
+    font-family: sans-serif;
+    height:500px;
+    width:800px;
+    margin:none;
+    padding:0px 0px 0px 25px;
+    border-color: $color-blue;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: solid;
+ 
+   .loginBox{
     float: left;
     width:50%;
     height:100%;
      
      .header{
-      position:absolute;
-      
+      display:inline-block;
+      width:100%;
       height:auto;
-      width:170px;
-
-
-        img{height:65px;
-            width:175px;
-            position:absolute;
-            top:20px;
-            left:-12px;
+      margin-bottom:50px;
+    
+      img{
+            height:70px;
+            width:190px;
+            position:relative;
+            top:5px;
+            left:-15px;
             
      } 
     
 
+     } 
+     .mainContent{ 
+        
+        width:100%;
+        height:auto;
+         .welcome{
+            color:rgb(178, 182, 183);
+            font-size: smaller;
+            margin-bottom: 20px; 
      }
-    .line1{
-        position:relative;
-        top:120px; 
-        color:rgb(178, 182, 183);
-        font-size: smaller; 
-     }
-     .line2{
-        position:relative;
-        top:140px; 
-        font-weight: bold;
+         .enter{
+         font-weight: bold;
+         margin-bottom: 20px;
         
     }
-    .line3{
-        position:relative;
-        top:160px;
-        
+        .inpt-mail{
+        margin-bottom: 10px;
         .inpt{
             border-radius:5px;
             padding:5px 5px;
@@ -74,9 +67,8 @@ left:20px;
             }    
         
     }
-    .line4{
-        position:relative;
-        top:170px; 
+       .inpt-pass{
+         margin-bottom: 20px;
         
         .inpt{
             border-radius:5px;
@@ -86,14 +78,12 @@ left:20px;
             color:rgb(178, 182, 183) ;
             border-style: solid; 
            }
-            .href{
-                display:inline; 
-                position:absolute;
-                right:120px;
-                top:auto;
-                padding: 5px 5px;
-            }   
+            
+                 
+              
          a{
+            position: relative;
+            left: -55px;
             cursor: pointer;
             font-size: 12px ;
             text-decoration: none;
@@ -103,10 +93,10 @@ left:20px;
            
          }
         }
-    .line5{
-        position:relative;
-        top:190px; 
-       .btn{
+      .btn{
+        margin-bottom: 20px; 
+       
+        button{
         background-color:$color-btnBck; 
         color:white;
         border-radius: 20px;
@@ -118,9 +108,8 @@ left:20px;
        }
         
     }
-    .line6{
-        position:relative;
-        top:220px;
+    .link{
+       
         color:rgb(178, 182, 183);
         font-size: small;  
       a{
@@ -130,15 +119,14 @@ left:20px;
         
       }  
     }
+ }
     .footer{
         color:rgb(178, 182, 183) ;
-        position: absolute;
-        top:450px;
         font-size: smaller;
+        margin-top:100px;
     }
     }
-    .rightColumn{
-    position:relative;
+    .imageBox{
     float: left;
     width:50%;
     height:100%;
@@ -159,4 +147,3 @@ left:20px;
     } 
  }
 
-}
