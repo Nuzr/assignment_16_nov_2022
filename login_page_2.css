@@ -1,0 +1,109 @@
+.pageContent {
+  display: flow-root;
+  justify-content: center;
+  margin: 100px;
+  font-family: sans-serif;
+  height: 500px;
+  width: 800px;
+  margin: none;
+  padding: 0px 0px 0px 25px;
+  border-color: rgb(224, 240, 247);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: solid;
+}
+.pageContent .loginBox {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.pageContent .loginBox .header {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.pageContent .loginBox .header img {
+  height: 70px;
+  width: 190px;
+  position: relative;
+  top: 5px;
+  left: -15px;
+}
+.pageContent .loginBox .mainContent {
+  width: 100%;
+  height: auto;
+}
+.pageContent .loginBox .mainContent .heading {
+  color: rgb(85, 86, 87);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.pageContent .loginBox .mainContent .inpt-name {
+  border-radius: 5px;
+  padding: 5px 5px 5px;
+  border-color: rgb(178, 182, 183);
+  box-sizing: border-box;
+  color: rgb(178, 182, 183);
+  border-style: solid;
+  margin-bottom: 10px;
+}
+.pageContent .loginBox .mainContent .inpt-mail {
+  border-radius: 5px;
+  padding: 5px 5px 5px;
+  border-color: rgb(178, 182, 183);
+  box-sizing: border-box;
+  color: rgb(178, 182, 183);
+  border-style: solid;
+  margin-bottom: 10px;
+}
+.pageContent .loginBox .mainContent .inpt-setPass {
+  border-radius: 5px;
+  padding: 5px 5px 5px;
+  border-color: rgb(178, 182, 183);
+  box-sizing: border-box;
+  color: rgb(178, 182, 183);
+  border-style: solid;
+  margin-bottom: 20px;
+}
+.pageContent .loginBox .mainContent .btn {
+  margin-bottom: 20px;
+}
+.pageContent .loginBox .mainContent .btn button {
+  background-color: rgb(64, 142, 225);
+  color: white;
+  border-radius: 20px;
+  border-color: none;
+  padding: 10px;
+  border: 0px;
+  font-size: 15px;
+  text-align: center;
+}
+.pageContent .loginBox .mainContent .link {
+  color: rgb(178, 182, 183);
+  font-size: small;
+}
+.pageContent .loginBox .mainContent .link a {
+  text-decoration: none;
+  color: rgb(48, 30, 209);
+  font-weight: bold;
+}
+.pageContent .loginBox .footer {
+  color: rgb(178, 182, 183);
+  font-size: smaller;
+  margin-top: 100px;
+}
+.pageContent .imageBox {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.pageContent .imageBox .image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.pageContent .imageBox img {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=login_page_2.css.map */

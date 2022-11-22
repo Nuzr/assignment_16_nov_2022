@@ -1,0 +1,126 @@
+@import 'variables.scss';
+
+
+
+
+
+.pageContent{
+ 
+    display: flow-root;
+    justify-content: center;
+    margin:100px;
+    font-family: sans-serif;
+    height:500px;
+    width:800px;
+    margin:none;
+    padding:0px 0px 0px 25px;
+    border-color: $color-blue;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-style: solid;
+ 
+   .loginBox{
+    float: left;
+    width:50%;
+    height:100%;
+     
+     .header{
+      display:inline-block;
+      width:100%;
+      height:auto;
+      margin-bottom:50px;
+    
+      img{
+            height:70px;
+            width:190px;
+            position:relative;
+            top:5px;
+            left:-15px;
+            
+     } 
+    
+
+     } 
+     .mainContent{ 
+        
+        width:100%;
+        height:auto;
+    
+
+     
+     .heading{
+         
+        color:rgb(121, 121, 121);
+        font-size: 10px;
+        font-weight:bold; 
+        margin-bottom: 20px;
+     }
+     .enter{
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .inp{
+        margin-bottom: 20px;
+        input{
+        border-radius:5px;
+        padding:10px 10px 10px;
+        border-color:$color-inpt;
+        box-sizing: border-box;
+        color:rgb(178, 182, 183) ;
+        border-style: solid; 
+        }
+    } 
+    .btn{ 
+        margin-bottom: 20px;
+        button{
+        background-color:$color-btnBck; 
+        color:white;
+        border-radius: 20px;
+        border-color:none;
+        padding :10px 10px;
+        border:0px;
+        font-size:15px;
+        
+        }
+        
+    }
+    .link{
+    a{
+        text-decoration: none;
+        color:$color-link;
+        font-size: 12px;
+    }
+}
+    }
+
+.footer{
+    color:rgb(178, 182, 183) ;
+    font-size: smaller;
+    margin-top:100px;
+}
+}
+.imageBox{
+float: left;
+width:50%;
+height:100%;
+ 
+  
+.image{
+    height:100%;
+    width:100%;
+    position:relative;
+
+
+img{
+    height:100%;
+    width:100%;
+}
+}
+
+}
+}    
+
+
+   
+
