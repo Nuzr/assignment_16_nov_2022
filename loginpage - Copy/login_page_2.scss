@@ -1,0 +1,143 @@
+@import 'variables.scss';
+
+
+
+.pageContainer{
+height: 700px;
+width:1000px;
+display:block;
+padding:100px 100px;
+border: 1px solid rgb(102, 105, 106);
+box-sizing: border-box;
+font-family: sans-serif;
+position: absolute;
+left:20px;
+
+  .pageContent{
+  position:absolute;
+  height:500px;
+  width:800px;
+  margin:none;
+  padding:0px 0px 0px 25px;
+  border-color: $color-blue;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: solid;
+  
+ 
+   .leftColumn{
+    position:relative;
+    float: left;
+    width:50%;
+    height:100%;
+     
+     .header{
+      position:absolute;
+      
+      height:auto;
+      width:170px;
+
+
+        img{height:65px;
+            width:175px;
+            position:absolute;
+            top:20px;
+            left:-12px;
+            
+     } 
+    
+
+     }
+    .heading{
+        position:relative;
+        top:120px; 
+        color:rgb(85, 86, 87);
+        font-weight:bold ; 
+     }
+    .inpt-name{
+        border-radius:5px;
+        padding:5px 5px 5px;
+        border-color:$color-inpt;
+        box-sizing: border-box;
+        color:rgb(178, 182, 183) ;
+        border-style: solid; 
+        position:relative;
+        top: 150px;
+    }
+    .inpt-mail{ 
+        border-radius:5px;
+        padding:5px 5px 5px;
+        border-color:$color-inpt;
+        box-sizing: border-box;
+        color:rgb(178, 182, 183) ;
+        border-style: solid; 
+        position:relative;
+        top: 160px;
+
+    }
+    .inpt-setPass{
+        border-radius:5px;
+        padding:5px 5px 5px;
+        border-color:$color-inpt;
+        box-sizing: border-box;
+        color:rgb(178, 182, 183) ;
+        border-style: solid; 
+        position:relative;
+        top: 170px;  
+    }
+    .btn{
+            background-color:$color-btnBck; 
+            color:white;
+            border-radius: 20px;
+            border-color:none;
+            padding :10px;
+            border:0px;
+            font-size:15px;
+            text-align: center;
+            position: relative;
+            top:220px;
+            right:300px;
+           }
+        .link{
+        position:relative;
+        top:240px;
+        color:rgb(178, 182, 183);
+        font-size: small;  
+      a{
+        text-decoration: none;
+        color:$color-link;
+        font-weight: bold;
+        
+      }    
+        }    
+    
+
+
+    .footer{
+        color:rgb(178, 182, 183) ;
+        position: absolute;
+        top:450px;
+        font-size: smaller;
+    }
+    }
+    .rightColumn{
+    position:relative;
+    float: left;
+    width:50%;
+    height:100%;
+     
+      
+    .image{
+        height:100%;
+        width:100%;
+        position:relative;
+    }
+    img{
+        height:100%;
+        width:100%;
+    }
+
+
+}
+}
+}

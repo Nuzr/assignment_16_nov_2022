@@ -1,0 +1,121 @@
+.pageContainer {
+  height: 700px;
+  width: 1000px;
+  display: block;
+  padding: 100px 100px;
+  border: 1px solid rgb(102, 105, 106);
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 20px;
+}
+.pageContainer .pageContent {
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  margin: none;
+  padding: 0px 0px 0px 25px;
+  border-color: rgb(224, 240, 247);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: solid;
+}
+.pageContainer .pageContent .leftColumn {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.pageContainer .pageContent .leftColumn .header {
+  position: absolute;
+  height: auto;
+  width: 170px;
+}
+.pageContainer .pageContent .leftColumn .header img {
+  height: 65px;
+  width: 175px;
+  position: absolute;
+  top: 20px;
+  left: -12px;
+}
+.pageContainer .pageContent .leftColumn .heading {
+  position: relative;
+  top: 120px;
+  color: rgb(85, 86, 87);
+  font-weight: bold;
+}
+.pageContainer .pageContent .leftColumn .inpt-name {
+  border-radius: 5px;
+  padding: 5px 5px 5px;
+  border-color: rgb(178, 182, 183);
+  box-sizing: border-box;
+  color: rgb(178, 182, 183);
+  border-style: solid;
+  position: relative;
+  top: 150px;
+}
+.pageContainer .pageContent .leftColumn .inpt-mail {
+  border-radius: 5px;
+  padding: 5px 5px 5px;
+  border-color: rgb(178, 182, 183);
+  box-sizing: border-box;
+  color: rgb(178, 182, 183);
+  border-style: solid;
+  position: relative;
+  top: 160px;
+}
+.pageContainer .pageContent .leftColumn .inpt-setPass {
+  border-radius: 5px;
+  padding: 5px 5px 5px;
+  border-color: rgb(178, 182, 183);
+  box-sizing: border-box;
+  color: rgb(178, 182, 183);
+  border-style: solid;
+  position: relative;
+  top: 170px;
+}
+.pageContainer .pageContent .leftColumn .btn {
+  background-color: rgb(64, 142, 225);
+  color: white;
+  border-radius: 20px;
+  border-color: none;
+  padding: 10px;
+  border: 0px;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  top: 220px;
+  right: 300px;
+}
+.pageContainer .pageContent .leftColumn .link {
+  position: relative;
+  top: 240px;
+  color: rgb(178, 182, 183);
+  font-size: small;
+}
+.pageContainer .pageContent .leftColumn .link a {
+  text-decoration: none;
+  color: rgb(48, 30, 209);
+  font-weight: bold;
+}
+.pageContainer .pageContent .leftColumn .footer {
+  color: rgb(178, 182, 183);
+  position: absolute;
+  top: 450px;
+  font-size: smaller;
+}
+.pageContainer .pageContent .rightColumn {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.pageContainer .pageContent .rightColumn .image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.pageContainer .pageContent .rightColumn img {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=login_page_2.css.map */

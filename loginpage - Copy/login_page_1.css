@@ -1,0 +1,135 @@
+.pageContainer {
+  height: 700px;
+  width: 1000px;
+  display: block;
+  padding: 100px 100px;
+  border: 1px solid rgb(102, 105, 106);
+  box-sizing: border-box;
+  font-family: sans-serif;
+  position: absolute;
+  left: 20px;
+}
+.pageContainer .pageContent {
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  margin: none;
+  padding: 0px 0px 0px 25px;
+  border-color: rgb(224, 240, 247);
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-style: solid;
+}
+.pageContainer .pageContent .leftColumn {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.pageContainer .pageContent .leftColumn .header {
+  position: absolute;
+  height: auto;
+  width: 170px;
+}
+.pageContainer .pageContent .leftColumn .header img {
+  height: 65px;
+  width: 175px;
+  position: absolute;
+  top: 20px;
+  left: -12px;
+}
+.pageContainer .pageContent .leftColumn .line1 {
+  position: relative;
+  top: 120px;
+  color: rgb(178, 182, 183);
+  font-size: smaller;
+}
+.pageContainer .pageContent .leftColumn .line2 {
+  position: relative;
+  top: 140px;
+  font-weight: bold;
+}
+.pageContainer .pageContent .leftColumn .line3 {
+  position: relative;
+  top: 160px;
+}
+.pageContainer .pageContent .leftColumn .line3 .inpt {
+  border-radius: 5px;
+  padding: 5px 5px;
+  border-color: rgb(178, 182, 183);
+  box-sizing: border-box;
+  color: rgb(37, 37, 37);
+  border-style: solid;
+}
+.pageContainer .pageContent .leftColumn .line4 {
+  position: relative;
+  top: 170px;
+}
+.pageContainer .pageContent .leftColumn .line4 .inpt {
+  border-radius: 5px;
+  padding: 5px 5px 5px;
+  border-color: rgb(178, 182, 183);
+  box-sizing: border-box;
+  color: rgb(178, 182, 183);
+  border-style: solid;
+}
+.pageContainer .pageContent .leftColumn .line4 .href {
+  display: inline;
+  position: absolute;
+  right: 120px;
+  top: auto;
+  padding: 5px 5px;
+}
+.pageContainer .pageContent .leftColumn .line4 a {
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(48, 30, 209);
+  font-weight: bolder;
+}
+.pageContainer .pageContent .leftColumn .line5 {
+  position: relative;
+  top: 190px;
+}
+.pageContainer .pageContent .leftColumn .line5 .btn {
+  background-color: rgb(64, 142, 225);
+  color: white;
+  border-radius: 20px;
+  border-color: none;
+  padding: 10px;
+  border: 0px;
+  font-size: 15px;
+  text-align: center;
+}
+.pageContainer .pageContent .leftColumn .line6 {
+  position: relative;
+  top: 220px;
+  color: rgb(178, 182, 183);
+  font-size: small;
+}
+.pageContainer .pageContent .leftColumn .line6 a {
+  text-decoration: none;
+  color: rgb(48, 30, 209);
+  font-weight: bold;
+}
+.pageContainer .pageContent .leftColumn .footer {
+  color: rgb(178, 182, 183);
+  position: absolute;
+  top: 450px;
+  font-size: smaller;
+}
+.pageContainer .pageContent .rightColumn {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.pageContainer .pageContent .rightColumn .image {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.pageContainer .pageContent .rightColumn img {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=login_page_1.css.map */
